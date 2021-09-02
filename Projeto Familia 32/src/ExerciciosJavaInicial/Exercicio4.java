@@ -1,4 +1,4 @@
-package Familia32;
+package ExerciciosJavaInicial;
 
 import java.util.Scanner;
 

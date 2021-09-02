@@ -1,4 +1,4 @@
-package Familia32;
+package LacosDeRepeticao;
 
 import java.util.Scanner;
 
