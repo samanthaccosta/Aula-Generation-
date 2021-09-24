@@ -44,7 +44,7 @@ public class Bebidas{
 		
 		System.out.println("\n1 - Refrigerante, R$ 14.00");
 		System.out.println("\n2 - Suco com Leite, R$ 8.00");
-		System.out.println("\n3 - Água, R$ 6.00");
+		System.out.println("\n3 - ï¿½gua, R$ 6.00");
 	}
 	
 	public void bebidasInfo() {

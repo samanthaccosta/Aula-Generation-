@@ -19,7 +19,7 @@ public class Precos extends Bebidas implements Adegaadm{
 		
 		System.out.println("\n\tBem Vindes A Adega Triunfo!!!");
 		do {
-			System.out.println("\nEscolha uma das opções de bebidas abaixo");
+			System.out.println("\nEscolha uma das opï¿½ï¿½es de bebidas abaixo");
 			bebidas.bebidasInfo();
 			num = ler.nextInt();
 			
@@ -28,7 +28,7 @@ public class Precos extends Bebidas implements Adegaadm{
 		case 1: 
 			if(num == 1) {
 				
-				System.out.println("\nEscolha uma das opções");
+				System.out.println("\nEscolha uma das opï¿½ï¿½es");
 				bebidas.bebidasAlcoolicas();
 				ba = ler.nextInt();
 				
@@ -51,7 +51,7 @@ public class Precos extends Bebidas implements Adegaadm{
 		case 2: 
 			if(num == 2) {
 				
-				System.out.println("\nEscolha uma das opções");
+				System.out.println("\nEscolha uma das opï¿½ï¿½es");
 				bebidas.bebidasNaturais();
 				bn = ler.nextInt();
 				
@@ -85,7 +85,7 @@ public class Precos extends Bebidas implements Adegaadm{
 			
 			System.out.println("\nEscolha a forma de pagamento");
 			System.out.println("\n1 - Dinheiro");
-			System.out.println("\n2 - Cartão");
+			System.out.println("\n2 - Cartï¿½o");
 			System.out.println("\n3 - Sair do carrinho");
 			fc = ler.nextInt();
 				
@@ -93,7 +93,7 @@ public class Precos extends Bebidas implements Adegaadm{
 		case 1: 
 			
 			String email;
-			System.out.println("Insira o seu endereço de e-mail para receber o boleto");
+			System.out.println("Insira o seu endereï¿½o de e-mail para receber o boleto");
 			email = ler.next();
 			
 			if(fc == 1) {
@@ -105,7 +105,7 @@ public class Precos extends Bebidas implements Adegaadm{
 		case 2: 
 			if(fc == 2) {
 				
-				System.out.println("\nSelecione a bandeira do seu cartão!");
+				System.out.println("\nSelecione a bandeira do seu cartï¿½o!");
 				System.out.println("\n1 - Visa");
 				System.out.println("\n2 - Master");
 				System.out.println("\n3 - Diners Club");
